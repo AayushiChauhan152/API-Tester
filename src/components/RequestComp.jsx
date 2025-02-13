@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axiosInstance from "../../backend/proxyConfig";
+import axiosInstance from "../proxyConfig";
 
 function RequestComp() {
   const [requests, setRequests] = useState([
