@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-secondary {
+    --tw-bg-opacity: 1;
+    background-color: rgb(26 26 26 / var(--tw-bg-opacity));
+}
+
+.bg-secondary-light {
+    --tw-bg-opacity: 1;
+    background-color: rgb(42 42 42 / var(--tw-bg-opacity));
+}
+
+.text-primary {
+    color: #7886C7;
+}
+
+.bg-primary {
+    color: #7886C7;
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
